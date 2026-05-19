@@ -1,10 +1,10 @@
 // 如需要使用环境变量,将462至468行取消注释
 import { connect } from 'cloudflare:sockets';
 
-let subPath = 'link';     // 节点订阅路径,不修改将使用UUID作为订阅路径
-let proxyIP = 'proxy.xxxxxxxx.tk:50001';  // proxyIP 格式：ip、域名、ip:port、域名:port等,没填写port，默认使用443,也可以是socks5
-let password = '5dc15e15-f285-4a9d-959b-0e4fbdd77b63';  // 节点UUID
-let SSpath = '';          // 路径验证，为空则使用UUID作为验证路径
+let subPath = 'sub';     // 节点订阅路径,不修改将使用UUID作为订阅路径
+let proxyIP = 'kr.william.us.ci';  // proxyIP 格式：ip、域名、ip:port、域名:port等,没填写port，默认使用443,也可以是socks5
+let password = 'c73313a2-9b65-475b-8d45-b63dfea4fa16';  // 节点UUID
+let SSpath = 'wabiss';          // 路径验证，为空则使用UUID作为验证路径
 
 // CF-CDN 
 let cfip = [ // 格式:优选域名:端口#备注名称、优选IP:端口#备注名称、[ipv6优选]:端口#备注名称、优选域名#备注 
